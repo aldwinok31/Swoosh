@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beginner_baller_bg"
+
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/swoosh_logo"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcol"
+        android:text="I am:"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32sp"
+        android:layout_gravity="center"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/selection1"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:alpha="0.5"
+           android:layout_marginRight="16sp"
+            android:text="@string/Newb"
+            android:textColor="@color/textcol"
+            />
+
+        <Button
+            android:id="@+id/selection2"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:alpha="0.5"
+
+            android:text="@string/Pro"
+            android:textColor="@color/textcol"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/selection3"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:alpha="0.5"
+        android:layout_marginTop="265sp"
+        android:clickable="false"
+        android:text="@string/Finish"
+        android:textColor="@color/textcol"
+        />
+</LinearLayout>

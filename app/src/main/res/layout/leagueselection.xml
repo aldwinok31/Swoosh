@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desired_league_bg"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/swoosh_logo"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0"
+        />
+
+    <Button
+        android:id="@+id/leaguebtn1"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:alpha="0.5"
+        android:layout_marginTop="76sp"
+        android:text="@string/M"
+        android:textColor="@color/textcol"
+        />
+    <Button
+        android:id="@+id/leaguebtn2"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:alpha="0.5"
+        android:text="@string/W"
+        android:layout_marginTop="16sp"
+        android:textColor="@color/textcol"
+        />
+    <Button
+        android:id="@+id/leaguebtn3"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:alpha="0.5"
+        android:layout_marginTop="16sp"
+        android:text="@string/C"
+        android:textColor="@color/textcol"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="@color/textcol"
+    android:layout_gravity="center"
+    android:id="@+id/last"
+    />
+    <Button
+        android:id="@+id/leaguebtn4"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="155sp"
+        android:alpha="0.3"
+        android:text="@string/N"
+  android:clickable="false"
+
+        android:background="@drawable/button"
+        android:textColor="@color/textcol" />
+
+
+</LinearLayout>
