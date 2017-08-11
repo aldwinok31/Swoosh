@@ -68,5 +68,5 @@
         android:text="@string/Finish"
         android:textColor="@color/textcol"
         />
-   
+
 </LinearLayout>
