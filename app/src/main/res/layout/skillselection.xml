@@ -61,7 +61,7 @@
         android:layout_width="173dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/button"
+        android:background="@drawable/disable"
         android:alpha="0.5"
         android:layout_marginTop="265sp"
         android:clickable="false"

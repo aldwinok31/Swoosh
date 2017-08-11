@@ -79,7 +79,7 @@
         android:text="@string/N"
   android:clickable="false"
 
-        android:background="@drawable/button"
+        android:background="@drawable/disable"
         android:textColor="@color/textcol" />
 
 
