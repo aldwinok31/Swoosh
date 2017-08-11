@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Swoosh</string>
+    <string name="Title1">GO ALL IN</string>
+    <string name="Title3">On going all out</string>
+    <string name="Title2">Find a team in your city  dominate the league</string>
+     <string name="next">GET STARTED</string>
+    <string name="league">Desired League: </string>
+
+     <string name="N">Next</string>
+    <string name="M">Mens</string>
+    <string name="W">Womens</string>
+    <string name="C">Co-ed</string>
+
+    <string name="Newb">Beginner</string>
+    <string name="Pro">Baller</string>
+    <string name="Finish">Finish</string>
+</resources>
