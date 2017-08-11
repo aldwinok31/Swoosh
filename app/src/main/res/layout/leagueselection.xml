@@ -54,6 +54,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text=""
+    android:layout_marginTop="32dp"
     android:textColor="@color/textcol"
     android:layout_gravity="center"
     android:id="@+id/last"
@@ -66,6 +67,7 @@
         android:layout_gravity="center"
         android:id="@+id/last1"
         android:layout_marginTop="16sp"
+        android:textSize="32sp"
         />
     <Button
         android:id="@+id/leaguebtn4"
